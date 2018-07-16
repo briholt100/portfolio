@@ -1,7 +1,7 @@
 # portfolio
 repo for code that shows progress in using software tools
 
-# first python program
+# first python program; written in python 2.6
 EnrollReportProcessing.py is a script that cleans up college generated report.  Unfortunately, these auto-generated reports are designed to be read in excel and so they have row headings embedded throughout. Also, some of the column titles are merged across two rows, and some columns are actually two merged variables.  This script (or series of scripts) filters out the unnecessary rows and splits data into tidy csv tables (see: [Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v059.i10]).  
 
 For example. An auto-generated report looks like this:
@@ -33,6 +33,9 @@ Spring 2018,North,1827,ABE 049 I2,BASIC SKILLS PHLEBOTOMY,2,T,12:00 PM,1:50 PM,C
 
 
 ```
+After spending a few days writing this and some other versions of this scripts, about 2 weeks later I started over and made a different scrip, titled, FileNameCreator.py.  This is basically the same script, just cleaned up, better ogranized.  I'm showing these two scripts as a demonstration of progress. 
+
+
 
 # R script to tidy and visualize Salary of College Staff, Admin, and Faculty
 
