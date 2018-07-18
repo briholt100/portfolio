@@ -35,13 +35,19 @@ Spring 2018,North,1827,ABE 049 I2,BASIC SKILLS PHLEBOTOMY,2,T,12:00 PM,1:50 PM,C
 ```
 It's still not technically tidy per Wickham, but it served my needs at the time.  
 
-After spending a few days writing this and some other versions of this scripts, about 2 weeks later I started over and made a different scrip, titled, FileNameCreator.py.  This is basically the same script, just cleaned up, better ogranized.d  I'm showing these two scripts as a demonstration of progress. 
+After spending a few days writing this and some other versions of this scripts, about 2 weeks later I added a new scripts to use the tidy() function but to zip together various files (each campus has it's own report per term). This script is called FileNameCreator.py. It uses new packages (libraries) and is better noted. I'm showing these two scripts as a demonstration of progress. 
 
 
 
 # R script to tidy and visualize Salary of College Staff, Admin, and Faculty
 
-This did a combination of webscraping from a few different sources to tidy and transform variables to analyze different employee groups in the Seattle Colleges. The most difficult problem is that there is no standard job titles for admin and staff.  Faculty generaly have the word faculty in their job title, but not 100%.  Admin is the most difficult with directors, executive directors etc.  Compicating this is that some staff were called "executive assistants", which meant that I need to filter them out from the admininstrative positions.  Executive assistants might earn 40k per year, while executive directors may earn 90k.  This used a lot of regular expressions.  
+This did a combination of webscraping from a few different sources to tidy and transform variables to analyze different employee groups in the Seattle Colleges. 
+
+pull_bloom.r is a script that scrapes data from a website of a WA state citizen who kept track of gov't salaries.  WA State's data on salaries has only been open source for the past few years.  Bloom's data goes back into the 90's though much of it is in image format.  
+
+salaryAnalysis.r and salary.r are scripts that scrapte, clean, and produce more tidy csv files of faculty salary.  
+
+The most difficult problem is that there is no standard job titles for admin and staff.  Faculty generaly have the word faculty in their job title, but not every time.  Admin is the most difficult with directors, executive directors etc.  Compicating this is that some staff were called "executive assistants", which meant that I need to filter them out from the admininstrative positions.  Executive assistants might earn 40k per year, while executive directors may earn 90k.  Obviously, these scripst use a lot of regular expressions.  
 
 
 
