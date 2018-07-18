@@ -33,7 +33,9 @@ Spring 2018,North,1827,ABE 049 I2,BASIC SKILLS PHLEBOTOMY,2,T,12:00 PM,1:50 PM,C
 
 
 ```
-After spending a few days writing this and some other versions of this scripts, about 2 weeks later I started over and made a different scrip, titled, FileNameCreator.py.  This is basically the same script, just cleaned up, better ogranized.  I'm showing these two scripts as a demonstration of progress. 
+It's still not technically tidy per Wickham, but it served my needs at the time.  
+
+After spending a few days writing this and some other versions of this scripts, about 2 weeks later I started over and made a different scrip, titled, FileNameCreator.py.  This is basically the same script, just cleaned up, better ogranized.d  I'm showing these two scripts as a demonstration of progress. 
 
 
 
