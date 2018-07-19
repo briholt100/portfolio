@@ -43,9 +43,11 @@ After spending a few days writing this and some other versions of this scripts, 
 
 This did a combination of webscraping from a few different sources to tidy and transform variables to analyze different employee groups in the Seattle Colleges. 
 
-pull_bloom.r is a script that scrapes data from a website of a WA state citizen who kept track of gov't salaries.  WA State's data on salaries has only been open source for the past few years.  Bloom's data goes back into the 90's though much of it is in image format.  
+##pull_bloom.r 
+A script that scrapes data from a website of a WA state citizen who kept track of gov't salaries.  WA State's data on salaries has only been open source for the past few years.  Bloom's data goes back into the 90's though much of it is in image format.  
 
-salaryAnalysis.r and salary.r are scripts that scrapte, clean, and produce more tidy csv files of faculty salary.  
+##salaryAnalysis.r and salary.r
+Scripts that scrape, clean, and produce more tidy csv files and visualizations of faculty salary.  
 
 The most difficult problem is that there is no standard job titles for admin and staff.  Faculty generaly have the word faculty in their job title, but not every time.  Admin is the most difficult with directors, executive directors etc.  Compicating this is that some staff were called "executive assistants", which meant that I need to filter them out from the admininstrative positions.  Executive assistants might earn 40k per year, while executive directors may earn 90k.  Obviously, these scripst use a lot of regular expressions.  
 
